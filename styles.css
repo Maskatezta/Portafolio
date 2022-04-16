@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100&display=swap');
+*{
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background: rgb(220,225,227);
+background: linear-gradient(180deg, rgba(220,225,227,1) 0%, rgba(92,95,88,1) 100%);
+}
+#main{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.245);  
+    margin:0px  5%;
+    border-radius: 1em;
+}
+#navbar{
+    display: block;
+    top:0;
+    position:fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255,0.245);
+}
+#navbar:hover{
+    background-color: rgba(149, 149, 149, 0.62);
+    
+}
+#navbar ul{
+    display: flex;    
+    flex-direction: row;
+    justify-content: end;
+}
+#navbar ul li{
+    list-style: none;
+
+}
+#navbar ul li a{
+    padding: 5px 50px;
+    display: block;
+    color:black ;
+    text-decoration:none;
+    font-weight: bolder;
+}
+#navbar ul li a:hover{
+    border-bottom: 3px solid #591C0B;
+}
+
+#welcome-section{
+    display: flex;
+    margin:0px  5%;
+    padding-top:100px;
+    justify-content: space-between;
+}
+#welcome-section h1{
+    margin:auto auto;
+}
+#welcome-section h1 a{
+    color:black;
+}
+#main #info{
+    width:60%;
+    text-align:justify;
+    margin:0 auto;
+    padding-top:80px;
+}
+
+#certificaciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#certificaciones a{
+    width:400px;
+    margin-top:50px;
+}
+#certificaciones a img{
+    width:100%;
+}
+#certificaciones a:hover{
+    width:500px;
+}
+h2{
+    text-align: center;
+    padding:20px ; 
+    border-bottom:1px solid #591C0B ;
+}
+/*Projects */
+#projects{
+    padding-top: 70px;
+}
+#projects #projects-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#projects a{
+    width: 40%;
+    min-width:500px;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+#projects img{
+    width:100%;  
+}
+#projects p{
+    text-align: center;
+    
+}
+/*Footer*/
+footer{
+    display: flex;
+    margin:200px 0px;
+    width: 100%;
+}
+footer .form-formulario{
+    width:400px;
+    margin: 0 10%;
+}
+footer .form-formulario .controls{
+    background-color: rgba(255, 255, 255,0.245);
+    width: 94%;
+    margin-bottom:15px;
+    padding:10px;
+    border-radius:4px;
+    font-size: 15px;
+}
+footer h3{
+    font-size: 16px;
+    text-align: center;
+}
+footer .form-formulario .botons{
+    width:400px;
+    background-color: gainsboro;
+    font-weight: bolder;
+}
+::placeholder{
+    color:black;
+}
+footer #message{
+    padding-bottom :100px;
+}
+footer .social-media{
+    width: 50%;
+    text-align: center;
+    line-height:200px;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+footer .icon{
+    width: 25px;
+}
