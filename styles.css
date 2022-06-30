@@ -52,7 +52,8 @@ background: linear-gradient(180deg, rgba(220,225,227,1) 0%, rgba(92,95,88,1) 100
 #welcome-section{
     display: flex;
     margin:0px  5%;
-    padding-top:100px;
+    padding-top:200px;
+    padding-bottom:160px;
     justify-content: space-between;
 }
 #welcome-section h1{
