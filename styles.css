@@ -71,19 +71,17 @@ background: linear-gradient(180deg, rgba(220,225,227,1) 0%, rgba(92,95,88,1) 100
 #certificaciones{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 #certificaciones a{
-    width:400px;
+    width:350px;
     margin-top:50px;
 }
 #certificaciones a img{
     width:100%;
 }
-#certificaciones a:hover{
-    width:500px;
-}
+
 h2{
     text-align: center;
     padding:20px ; 
@@ -111,6 +109,11 @@ h2{
 #projects p{
     text-align: center;
     
+}
+@media (min-width:970px) {
+    #certificaciones a:hover{
+        width:480px;
+    }
 }
 /*Footer*/
 footer{
@@ -156,4 +159,14 @@ footer a{
 }
 footer .icon{
     width: 25px;
+}
+
+@media (max-width:800px) {
+    footer{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #certificaciones a{
+        width:500px;
+    }
 }
