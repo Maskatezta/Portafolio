@@ -21,43 +21,54 @@
         <h1>Hello I'm <a href="#info">Ronaldo</a></h1>
         <img src="img/foto-removebg-preview.png" alt="">
     </div>
-    <main id="main">  
-        <section class="main-section" id="info" >
+    <main id="main">
+        <section class="main-section" id="info">
             <h2>Quien soy?</h2>
             <p>Soy Ingeniero en Sistemas Computacionales y Desarrollador de Software especializado en backend,
-                con experiencia en los siguientes lenguajes de programación: Java y Javascript con 
-                frameworks como Spring, Spring Boot, Angular y ReactJS, así como otros para manejo de 
-                base de datos y maquetación web 
-            </p> 
+                con experiencia en los siguientes lenguajes de programación: Java y Javascript con
+                frameworks como Spring, Spring Boot, Angular y ReactJS, así como otros para manejo de
+                base de datos y maquetación web
+            </p>
         </section>
-        <section class="main-section "id="certificaciones">
+        <section class="main-section " id="certificaciones">
             <a href=""><img src="img/BasesDeDatos.jpg" alt="Certificacion de bases de datos"></a>
-            <a href=""><img src="img/AplicacionesMoviles.jpg" alt="Certificacion de Desarrollador de Apliaciones Moviles"></a>
+            <a href=""><img src="img/AplicacionesMoviles.jpg"
+                    alt="Certificacion de Desarrollador de Apliaciones Moviles"></a>
             <a href=""><img src="img/C.jpg" alt="Certificacion de programador Orientado a Objetos"></a>
             <a href=""><img src="img/freecode.bmp" alt="Certificacion de freeCodeCamp"></a>
         </section>
-        
+
         <section class="main-section" id="projects">
             <h2>Proyectos</h2>
             <div id="projects-container">
-            <a href="https://codepen.io/maskatezta/full/VwyXWLe" class="project-tile" target="_blank"><img src="img/1.jpg" alt="" class="project-image">
-            <p class="project-title">Pagina Tributo</p></a>
-            <a href="https://prueba-para-login.herokuapp.com/login.html" class="project-tile" target="_blank"><img src="img/usuarios.bmp" alt="" class="project-image">
-                <p class="project-title">Pagina de control de usuarios</p></a>
-            <a href="https://codepen.io/maskatezta/full/NWXBYpR" class="project-tile" target="_blank"><img src="img/AterrizajeDeProducto.jpg" alt="" class="project-image">
-            <p class="project-title">Pagina Producto</p></a>
-            <a href="https://codepen.io/maskatezta/full/yLpxGvx" class="project-tile" target="_blank"><img src="img/PaginaDocumentacion.jpg" alt="" class="project-image">
-            <p class="project-title">Pagina Documentación</p></a>
-            
-        </div>
+                <a href="https://codepen.io/maskatezta/full/VwyXWLe" class="project-tile" target="_blank"><img
+                        src="img/1.jpg" alt="" class="project-image">
+                    <p class="project-title">Pagina Tributo</p>
+                </a>
+                <a href="https://prueba-para-login.herokuapp.com/login.html" class="project-tile" target="_blank"><img
+                        src="img/usuarios.bmp" alt="" class="project-image">
+                    <p class="project-title">Pagina de control de usuarios</p>
+                </a>
+                <a href="https://codepen.io/maskatezta/full/NWXBYpR" class="project-tile" target="_blank"><img
+                        src="img/AterrizajeDeProducto.jpg" alt="" class="project-image">
+                    <p class="project-title">Pagina Producto</p>
+                </a>
+                <a href="https://codepen.io/maskatezta/full/yLpxGvx" class="project-tile" target="_blank"><img
+                        src="img/PaginaDocumentacion.jpg" alt="" class="project-image">
+                    <p class="project-title">Pagina Documentación</p>
+                </a>
+
+            </div>
         </section>
     </main>
     <footer id="footer">
-        <section class=" form-formulario" >
-            <h3>Enviame un mensaje :)</h3>
-            <input type="email" name="email"  class="controls" placeholder="Example@example.com">
-            <input type="text" name="message" class="controls" id="message" placeholder="message.....">
-            <input type="submit" class="botons" value="Enviar">
+        <section class=" form-formulario">
+            <form  action="php/enviar.PHP" method="post" >
+                <h3>Enviame un mensaje :)</h3>
+                <input type="email" name="email"  id="email" class="controls" placeholder="Example@example.com">
+                <input type="text" name="mensaje" id="mensaje" class="controls"  placeholder="message.....">
+                <button type="submit" class="botons">Enviar </button>
+            </form>
         </section>
         <section class="social-media">
             <a href="https://www.linkedin.com/in/ronaldo-acevedo-ojeda-461133232/" target="_blank">
