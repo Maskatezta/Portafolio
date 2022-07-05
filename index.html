@@ -6,16 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portafolio</title>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </head>
 
 <body>
-    <nav id="navbar">
-        <ul>
-            <li><a href="#welcome-section">About me</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#footer">Contact me</a></li>
-        </ul>
+    <nav class="topnav" id="myTopnav">
+            <a href="#welcome-section">About me</a>
+            <a href="#projects">Work</a>
+            <a href="#footer">Contact me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
     </nav>
     <div id="welcome-section">
         <h1>Hello I'm <a href="#info">Ronaldo</a></h1>
