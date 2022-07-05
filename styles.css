@@ -103,7 +103,7 @@ body {
     }
 
     .topnav a {
-        padding: 10px 50px;
+        padding: 10px 80px 10px 30px;
     }
 }
 
@@ -244,11 +244,16 @@ footer .icon {
 
 @media (max-width:800px) {
     footer {
-        justify-content: space-around;
         flex-wrap: wrap;
         margin: 200px 0px 0px 0px;
     }
-
+    footer .form-formulario{
+        width:100%;
+        margin: 0px;
+    }
+    footer .form-formulario .botons {
+        width:100%;
+    }
     #certificaciones a {
         width: 500px;
     }
@@ -266,11 +271,18 @@ footer .icon {
         padding-top: 30px;
     }
 
+    footer section{
+        width: 100%;
+    }
+
 }
 
 @media (max-width:570px) {
     #projects img {
         width: 70%;
         margin-left: 15%;
+    }
+    footer .social-media{
+        margin: 0 auto;
     }
 }
