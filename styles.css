@@ -32,7 +32,7 @@ background: linear-gradient(180deg, rgba(220,225,227,1) 0%, rgba(92,95,88,1) 100
 }
 #navbar ul{
     display: flex;    
-    flex-direction: row;
+    flex-direction:row;
     justify-content: end;
 }
 #navbar ul li{
